@@ -4,7 +4,7 @@ public class SocialNetwork {
 
     public static void main(String args[]){
         Network facebook = new Network();
-        Profile temp =  facebook.getProfile(intro(facebook));
+        Profile temp =  facebook.searchFriends(intro(facebook));
 
 
 
